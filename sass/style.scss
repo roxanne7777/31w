@@ -12,7 +12,9 @@ Text Domain: theme-31w
 */
 
 //@import "variables/couleurs";
+/*--------------------------------------------- normalize  */
 @import "normalize/normalize";
+/*--------------------------------------------- layout  */
 @import "layout/page";
 /*--------------------------------------------- base  */
 @import "base/heading";
@@ -20,5 +22,5 @@ Text Domain: theme-31w
 //@import "base/lien";
 //@import "base/list";
 
-/* --------------------------------------------- composant */
+/* --------------------------------------------- composants */
 @import "composants/bloc";
