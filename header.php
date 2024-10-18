@@ -10,6 +10,7 @@
     <header class="entete">
     <section class="global">
       <h1>31W</h1>
+      <h3>Voici un sous-titre pour l'exercice 1</h3>
       <nav>
         <ul>
           <li><a href="#">Accueil</a></li>

@@ -1,28 +1,32 @@
 .global {
-    width: 1100px;
-    margin: 0 auto;
+  width: 1100px;
+  margin: 0 auto;
 
-    background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .entete {
-    background-color: orange;
+  background-color: orange;
 }
 
 .principal {
-    background-color: lemonchiffon;
+  background-color: lemonchiffon;
 }
 
 .pied {
-    background-color: purple;
+  background-color: purple;
 }
 
 .recherche {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+
+li {
+    display: inline;
 }
 
 a {
-    font-size: 1.25em;
-    margin: 10px;
-    text-decoration: none;
-    color: yellow;
+  font-size: 1.25em;
+  margin: 10px;
+  text-decoration: none;
+  color: yellow;
 }

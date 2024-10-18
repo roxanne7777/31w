@@ -344,6 +344,10 @@ template {
   margin-top: 10px;
 }
 
+li {
+  display: inline;
+}
+
 a {
   font-size: 1.25em;
   margin: 10px;
