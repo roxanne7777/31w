@@ -30,7 +30,7 @@
               <article class="principal__article">
                   <h5><?php echo $sigle; ?></h5>
                   <h6><?php echo $titre; ?></h6>
-                  <p><?php echo wp_trim_words( get_the_excerpt(), 20, null ); ?></p>
+                  <p><?php echo wp_trim_words( get_the_excerpt(), 10, null ); ?></p>
               </article>
             <?php endwhile; ?>
         </div>
