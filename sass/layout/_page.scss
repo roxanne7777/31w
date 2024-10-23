@@ -1,8 +1,8 @@
 .global {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
-
   background-color: rgba(255, 255, 255, 0.3);
+ 
 }
 .entete {
   background-color: orange;
@@ -13,9 +13,10 @@
 }
 
 .pied {
-  background-color: purple;
+  background-color: rgb(145, 67, 163);
 }
 
+//mettre dans une autre page -----------------------------*
 .recherche {
   margin-top: 10px;
 }
@@ -24,9 +25,9 @@ li {
     display: inline;
 }
 
-a {
+/*a {
   font-size: 1.25em;
   margin: 10px;
   text-decoration: none;
   color: yellow;
-}
+}*/

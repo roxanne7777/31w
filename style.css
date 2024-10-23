@@ -323,7 +323,7 @@ template {
 
 /*--------------------------------------------- layout  */
 .global {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -337,7 +337,7 @@ template {
 }
 
 .pied {
-  background-color: purple;
+  background-color: rgb(145, 67, 163);
 }
 
 .recherche {
@@ -348,16 +348,15 @@ li {
   display: inline;
 }
 
-a {
+/*a {
   font-size: 1.25em;
   margin: 10px;
   text-decoration: none;
   color: yellow;
-}
-
+}*/
 /*--------------------------------------------- base  */
 h1 {
-  font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
+  font-size: clamp(2rem, -0.75rem + 4.8vw, 4rem);
 }
 
 h2 {
@@ -416,4 +415,47 @@ p {
   border: 1px solid #aaa;
   flex: 1 1 300px;
   padding: 10px;
+}
+
+.menu-principal-container .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+.menu-principal-container .menu .menu-item a {
+  display: block;
+  padding: 3px;
+}
+.menu-principal-container .menu .menu-item a:hover {
+  background-color: aqua;
+}
+
+/*
+
+.recherche__input {
+
+}
+
+.recherche__bouton {
+
+}
+
+.recherche__bouton_img {
+
+}*/
+.recherche__input, .recherche__bouton {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+.recherche__input:hover, .recherche__bouton:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.recherche__input:focus, .recherche__bouton:focus {
+  background-color: whitesmoke;
+}
+.recherche__input::placeholder {
+  color: red;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

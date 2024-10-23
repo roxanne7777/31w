@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>31W</title>
-  <?php wp_head(); ?>
-</head>
-<body>
+
     <footer class="pied">
     <section class="global">
         <div>
@@ -25,4 +17,6 @@
       <div><p>Voici du texte dans le footer! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quo reprehenderit rem iste eum delectus ratione repellat repellendus culpa dolorem?</p></div>
     </section>
   </footer>
+  <?php wp_footer(); ?>
 </body>
+</html>
