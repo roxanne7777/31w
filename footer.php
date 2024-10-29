@@ -10,13 +10,14 @@
         <img src="wp-content\themes\theme-31w\citrouille.jpg" alt="citrouille" height="75">
       </div>
       <div>
-        <form class="recherche">
-        <input type="search" name="" id="" />
-        <img
-          src="https://s2.svgbox.net/hero-outline.svg?ic=search&color=000"
-          width="20"
-          height="20" />
-      </form>
+        <?php wp_nav_menu(
+            array(
+              "menu" => "principal",
+              "container" => "nav"
+            )
+            );
+            get_search_form();
+        ?>
         menu sur une colonne
       </div>
     </section>
