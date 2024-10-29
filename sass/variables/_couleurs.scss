@@ -1,0 +1,9 @@
+$couleur1: #e8c411;
+$couleur2: #11b6e8;
+$couleur3: #0e2add;
+
+@mixin applique_couleur($selecteur, $couleur) {
+    #{$selecteur} {
+        background-color: #{$couleur};
+    }
+}

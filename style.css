@@ -443,6 +443,13 @@ p {
 .recherche__bouton_img {
 
 }*/
+.recherche {
+  /*&__bouton {
+        img {
+
+        }
+    }*/
+}
 .recherche__input, .recherche__bouton {
   background-color: rgba(0, 0, 0, 0.3);
   border: none;
@@ -458,4 +465,14 @@ p {
 .recherche__input::placeholder {
   color: red;
   font-size: 1.5rem;
+}
+
+.entete__global {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.entete__nav {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

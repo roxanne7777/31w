@@ -11,7 +11,8 @@
     <section class="global entete__global">
       <div class="entete__titre">
         <h1><a href="<?php bloginfo('url')?>">31W (ajouter bloginfo name)</a></h1> 
-        <h3>Voici un sous-titre pour l'exercice 1 (ajouter bloginfo description)</h3>
+        <h2>Voici un sous-titre pour l'exercice 1 (ajouter bloginfo description)</h2>
+        <p>wrap sans couper le sous-titre</p>
       </div>
       
       <div class="entete__nav">

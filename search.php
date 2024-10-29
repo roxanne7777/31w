@@ -8,18 +8,13 @@
 
   <main class="principal">
     <section class="global">
-        <h2>Liste de cours 3-2-1 colonnes</h2>
-        <div class="principal__conteneur">
+        <h2>Résultats de recherche</h2>
+        <div class="principal__recherche">
         <?php if (have_posts()): ?>
             <?php while (have_posts()): the_post(); ?>
-              <?php
-                $chaine = get_the_title();
-                $sigle = substr($chaine, 0, 7);
-                $titre = substr($chaine, 8, strrpos($chaine, "(")-8);
-                ?>
+              
               <article class="principal__article">
-                  <h5><?php echo $sigle; ?></h5>
-                  <h6><?php echo $titre; ?></h6>
+                  <h5><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h5>
                   <p><?php echo wp_trim_words( get_the_excerpt(), 10, null ); ?></p>
               </article>
             <?php endwhile; ?>
@@ -28,3 +23,5 @@
     </section>
   </main>
   <?php get_footer(); ?>
+
+ 
