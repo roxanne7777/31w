@@ -2,8 +2,21 @@ $couleur1: #e8c411;
 $couleur2: #11b6e8;
 $couleur3: #0e2add;
 
-@mixin applique_couleur($selecteur, $couleur) {
+@mixin regle_couleur($selecteur, $couleur) {
     #{$selecteur} {
-        background-color: #{$couleur};
+        color: var(#{$couleur});
     }
+}
+
+@mixin regle_couleur_back($selecteur, $couleur) {
+  #{$selecteur} {
+    background-color: var(#{$couleur});
+  }
+}
+
+@mixin regle_couleur_avant_arriere($selecteur, $avant, $arriere) {
+  #{$selecteur} {
+    color: var(#{$avant});
+    background-color: var(#{$arriere});
+  }
 }
