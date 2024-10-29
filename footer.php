@@ -18,7 +18,6 @@
             );
             get_search_form();
         ?>
-        menu sur une colonne
       </div>
     </section>
   </footer>

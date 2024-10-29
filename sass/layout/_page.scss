@@ -33,6 +33,14 @@ body {
   background-color: rgb(145, 67, 163);
 }
 
+.pied__global {
+  display: flex;
+  gap: 10px;
+  div {
+    padding: 10px;
+  }
+}
+
 //mettre dans une autre page -----------------------------*
 /*.recherche {
   margin-top: 10px;
