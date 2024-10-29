@@ -12,15 +12,9 @@
         <div class="principal__conteneur">
         <?php if (have_posts()): ?>
             <?php while (have_posts()): the_post(); ?>
-              <?php
-                $chaine = get_the_title();
-                $sigle = substr($chaine, 0, 7);
-                $titre = substr($chaine, 8, strrpos($chaine, "(")-8);
-                ?>
               <article class="principal__article">
-                  <h5><?php echo $sigle; ?></h5>
-                  <h6><?php echo $titre; ?></h6>
-                  <p><?php echo wp_trim_words( get_the_excerpt(), 10, null ); ?></p>
+                  <h5><?php the_title() ?></h5>
+                  <p><?php the_content() ?></p>
               </article>
             <?php endwhile; ?>
         </div>
