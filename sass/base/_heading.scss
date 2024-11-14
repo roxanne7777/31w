@@ -3,9 +3,8 @@ h1 {
 font-size: clamp(2rem, -0.75rem + 4.8vw, 4rem);
 }
 
-@include regle_couleur_avant_arriere(
+@include regle_couleur(
   ".entete__titre h1 a",
-  $couleur3,
   $couleur2
 );
 

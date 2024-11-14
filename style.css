@@ -342,8 +342,6 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.3);
-  display: flex;
-  justify-content: space-between;
 }
 
 .body__global {
@@ -383,8 +381,7 @@ h1 {
 }
 
 .entete__titre h1 a {
-  color: var(--couleur3);
-  background-color: var(--couleur2);
+  color: var(--couleur2);
 }
 
 h2 {
