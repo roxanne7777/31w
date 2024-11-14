@@ -7,7 +7,7 @@
 <?php get_header() ?>
 
 <main class="principal">
-  <section class="global">
+  <section class="global body__global">
     <h2>Single.php</h2>
     <div class="principal__conteneur">
       <?php if (have_posts()): ?>

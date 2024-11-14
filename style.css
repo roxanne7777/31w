@@ -324,9 +324,9 @@ template {
 
 /*--------------------------------------------- layout  */
 :root {
-  --couleur1: #e8c411;
-  --couleur2: #11b6e8;
-  --couleur3: #0e2add;
+  --couleur1: orange;
+  --couleur2: lemonchiffon;
+  --couleur3: rgb(145, 67, 163);
 }
 
 html,
@@ -342,15 +342,22 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.body__global {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /*
 .entete {
   background-color: orange;
-}
-*/
+}*/
 .entete {
-  background-color: var(#e8c411);
+  background-color: var(--couleur1);
 }
 
 .principal {
@@ -363,34 +370,21 @@ body {
 
 .pied__global {
   display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 .pied__global div {
   padding: 10px;
 }
 
-/*.recherche {
-  margin-top: 10px;
-}
-
-li {
-    display: inline;
-}
-
-/*a {
-  font-size: 1.25em;
-  margin: 10px;
-  text-decoration: none;
-  color: yellow;
-}*/
 /*--------------------------------------------- base  */
 h1 {
   font-size: clamp(2rem, -0.75rem + 4.8vw, 4rem);
 }
 
 .entete__titre h1 a {
-  color: var(#0e2add);
-  background-color: var(#11b6e8);
+  color: var(--couleur3);
+  background-color: var(--couleur2);
 }
 
 h2 {
